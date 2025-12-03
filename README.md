@@ -2,7 +2,7 @@
 
 A web-based e-commerce application built with Angular 20, designed to browse clothing items, filter products, and manage a shopping cart. The project follows a modular structure using reusable components, HTTP services, and dynamic routing.
 
-## Descripción
+## Overview
 
 Venecia Showroom is an interactive online shop created as a learning project.
 The application fetches product data from an external API (MockAPI) and provides a complete shopping experience with navigation, item visualization, and cart management.
@@ -30,6 +30,12 @@ src/app/
 └── product-products/      # Products component
 ```
 
+## Tech Stack
+- Angular 20
+- TypeScript
+- HTML & CSS
+- MockAPI (product data)
+
 ## Development server
 
 To start a local development server, run:
@@ -40,27 +46,4 @@ ng serve
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
